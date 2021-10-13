@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-tutor",
+  "version": "1.0.0",
+  "description": "Hello, NodeJS World! Again.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mya-engineer/hello-nodejs-world.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "mya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mya-engineer/hello-nodejs-world/issues"
+  },
+  "homepage": "https://github.com/mya-engineer/hello-nodejs-world.git",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
