@@ -4,5 +4,4 @@ This repo contains a NodeJS project (HTTP Server) which shows basic principle of
 
 ## Thanks
 
-- [vladilenm](https://www.youtube.com/c/VladilenMinin)
-- [webDev](https://www.youtube.com/c/YauhenKavalchuk)
+- [webDev](https://www.youtube.com/c/YauhenKavalchuk) for the [course](https://youtube.com/playlist?list=PLNkWIWHIRwMFtsaJ4b_wwkJDHKJeuAkP0)!
