@@ -1,11 +1,16 @@
 const express = require('express')
 const path = require('path')
+var morgan = require('morgan')
+
+const PORT = 8888
 
 const app = express()
 
 app.set('view engine', 'ejs')
 
-const PORT = 8888
+app.use(morgan(':method :url :status :res[content-length] - :response-time ms'))
+
+app.use(express.static('styles'))
 
 const createPath = page => path.resolve(__dirname, 'ejs-views', `${page}.ejs`)
 
